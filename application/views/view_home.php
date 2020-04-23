@@ -14,7 +14,7 @@
 <!-- ============================================================================================================ -->
 <title>Home</title>
   <body>  
-      <div class="jumbotron jumbotron-fluid mt-5 " style=" height : 280px; background-image: url('<?= base_url('assets/img/jumbotron1.jpg'); ?>')">
+      <div class="jumbotron jumbotron-fluid mt-5 " style=" height : 280px; background-image: url('<?= base_url('assets/img/jb11.jpg'); ?>')">
           <div class="container text-center mt-4">
               <h1 class="display-4">HOME</h1>
               <p class="lead"><b>Welcome to Our Pages<b></p>
