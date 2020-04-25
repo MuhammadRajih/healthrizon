@@ -1,0 +1,165 @@
+/*navbar*/
+.navbar-brand{
+	font-size: 30px;
+
+}
+
+.nav-link{
+	margin-right : 30px;
+	margin-left : 20px;
+	text-transform: uppercase;
+}
+
+.nav-link:hover::after{
+	content: '';
+	display: block;
+	border-bottom: 3px solid;
+	border-color: white;
+	width:50%;
+	margin: auto;
+	padding-bottom: 5px;
+	margin-bottom: -8px;
+}
+/*selesai navbar*/
+
+/*====================================================================*/
+/*jumbotron*/
+.jumbotron{
+margin-bottom: 0px;
+}
+
+.display-4{
+	color: black;
+	text-align: center;
+	font-weight: 450;
+	/*text-shadow: 1px 1px 1px rgba(0, 0, 0, 1); */
+	text-shadow:1px 0px #ccc, 0px 1px #ccc , 
+				2px 1px #ddd, 1px 0px #bbb, 
+				3px 2px #ddd, 2px 3px #bbb, 
+				4px 3px #ddd, 3px 4px #bbb, 
+				5px 4px #ddd, 4px 5px #bbb, 
+				6px 5px #ddd, 5px 6px #bbb, 
+				7px 6px #ddd, 6px 7px #bbb, 
+				8px 7px #ddd, 7px 8px #bbb, 
+				8px 8px #ddd;
+
+}
+
+.display-4:hover {
+   position: relative; 
+   top: -3px; 
+   left: -3px; 
+   text-shadow: 1px 1px #00eeff, 
+                2px 2px #00eeff, 
+                3px 3px #00eeff, 
+                4px 4px #00eeff, 
+                5px 5px #00eeff, 
+                6px 6px #00eeff;
+}
+/*=============================*/
+.lead{
+	color: black;
+	text-align: center;
+	font-weight: 400;
+	/*text-shadow: 1px 1px 1px rgba(0, 0, 0, 1); */
+	text-shadow:1px 0px #ccc, 0px 1px #ccc , 
+				2px 1px #ddd, 1px 0px #bbb, 
+				3px 2px #ddd, 2px 3px #bbb, 
+				4px 3px #ddd, 3px 4px #bbb, 
+				5px 4px #ddd, 4px 5px #bbb, 
+				6px 5px #ddd, 5px 6px #bbb, 
+				7px 6px #ddd, 6px 7px #bbb, 
+				8px 7px #ddd, 7px 8px #bbb, 
+				8px 8px #ddd;
+				
+}
+.lead:hover {
+   position: relative; 
+   top: -3px; 
+   left: -3px; 
+   text-shadow: 1px 1px #00eeff, 
+                2px 2px #00eeff, 
+                3px 3px #00eeff, 
+                4px 4px #00eeff, 
+                5px 5px #00eeff, 
+                6px 6px #00eeff;
+}
+/*selesai jumbotron*/
+
+/*====================================================================*/
+/*UNTUK CAROUSEL*/
+.carousel-item{
+	height: 650px;
+	margin-top: -100px;
+
+}
+
+.carousel-item img{
+	margin-top: -120px;
+
+}
+
+.caption{
+	color: black;
+	font-size: 30px;
+	margin-top: -120px;
+}
+
+/*====================================================================*/
+/*untuk judul quote of the day*/
+.pembatas{
+	font-size: 35px;
+	padding-bottom: 0px;
+	padding-top: 1px;
+	font-family:Palatino Linotype;
+	background-color: #ffffff; 
+}
+
+
+/*====================================================================*/
+/*untuk gambar breaking news*/
+.media img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+/*====================================================================*/
+
+/*.section-title{
+	font-size: 35px; 
+}*/
+
+
+/* ===== FOTO PALING KIRI ============== */
+.thumbkiri{ 
+	margin-left: 300px;
+	margin-right: 30px;
+}
+/* ===== FOTO PALING KIRI ============== */
+
+/* ===== FOTO PALING KANAN ============== */
+.thumbkanan{
+	margin-left: 80px;
+	margin-right: 30px;
+}
+/* ===== FOTO PALING KANAN ============== */
+
+/* ===== BIASA ============== */
+.thumb1{
+	margin-left: 80px;
+	margin-right: 30px;
+}
+/* ===== BIASA ============== */
+
+
+.iklan {
+	margin-left: 100000px;
+	width: 50%;
+	height: 50%;
+}
+
+.tombolkomen{
+	margin-left: 800px;
+}
+
